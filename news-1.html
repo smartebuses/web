@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Free responsive business website template</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css"> 
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+   </head>
+   <body class="size-960">
+      <!-- HEADER -->
+      <header>
+         <div class="line">
+            <div class="box">
+               <div class="s-12 l-2">
+                  <img class="s-5 l-12 center" src="img/logo.svg">
+               </div>
+            </div>
+         </div>
+         <!-- TOP NAV -->  
+         <div class="line">
+            <nav class="margin-bottom">
+               <div class="top-nav s-12 l-10">
+                  <ul>
+                     <li><a>Home</a></li>
+                     <li>
+                        <a>Documents</a>
+                        <ul>
+                           <li><a>Scientific Papers</a></li>
+                           <li><a>Public Deliverables</a></li>
+                           <li>
+                              <a>Product 3</a>
+                              <ul>
+                                 <li><a>Product 3-1</a></li>
+                                 <li><a>Product 3-2</a></li>
+                                 <li><a>Product 3-3</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a>Work Packages</a>
+                        <ul>
+                           <li><a>WP 1</a></li>
+                           <li><a>WP 2</a></li>
+                        </ul>
+                     </li>
+                     <li><a>News</a></li>
+                     <li><a>Members</a></li>
+                     <li><a>Contact</a></li>
+                  </ul>
+               </div>
+               <div class="hide-s hide-m l-2">
+                  <i class="icon-facebook_circle icon2x right padding"></i>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <section>
+         <!-- CAROUSEL -->  
+         <!--
+         <div class="line">
+            <div id="header-carousel" class="owl-carousel owl-theme margin-bottom">
+               <div class="item"><img src="img/header-1.svg" alt=""></div>
+               <div class="item"><img src="img/header-2.svg" alt=""></div>
+               <div class="item"><img src="img/header-3.svg" alt=""></div>
+            </div>
+         </div>
+         -->
+         <!-- ASIDE NAV AND CONTENT -->
+         <!--
+         <div class="line">
+            <div class="box margin-bottom">
+               <div class="margin">
+
+                  <article class="s-12 m-7 l-8" >
+                     <h1>Project</h1>
+
+                     The implementation of a sustainable and efficient electric transportation network requires addressing multiple concerns such as: limited driving range and battery charging/discharging time. Nowadays, electric buses can travel up to 200KM on a full charge and the charging time varies depending on the technology from a couple of minutes (with fast-charging stations rated at 450 kWh) to hours (with slow-charging stations rated at 30 kWh). In order to address these limitations, we plan to use multiple AI technologies to optimize critical components for the electrification of the public bus transportation system.
+ 
+In this context, SMARTeBuses plans to design and implement new algorithms to optimise critical components for the electrification of the public bus transportation system. First, we will use Big Data and Machine Learning to analyse the current operations of a selected set of bus routes in Ireland. Second, we will identify suitable locations for slow and fast charging stations satisfying a predefined set of power and space capacity constraints. Finally, we will use optimization technology (e.g., constraint programming, mixed integer linear programming, and meta-heuristic search) to provide robust and stable schedules to charge the electric fleet without overloading the national grid and maximizing the use of wind power.
+
+                </article>
+               <div class="s-12 m-6 l-4 margin-bottom"> 
+                  <div class="box">
+                     <h4>General Information</h4> 
+                     <h6> Project Number:  </h6> 
+                     <h6>Project Start Date: 01 January 2020 </h6>
+                     <h6> Project Category: Non-economic Public Good Research</h6>
+		    <h6> Funded by: SEAI RD&D 2019 Programme </h6>                     
+                  </div>
+               </div>
+
+               </div>
+            </div>
+         </div>
+         -->
+         
+
+      </section>
+      <!-- FOOTER -->
+      <footer class="line">
+         <div class="box">
+            <div class="s-12 l-12">
+               <p>This Project has received funding from the SEAI RD&D 2019 Programme under grant agreement No. XXX</p>
+            </div>
+            <!--
+            <div class="s-12 l-6">
+               <a class="right" href="http://www.myresponsee.com" title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a>
+            </div>
+            -->
+         </div>
+      </footer>                                                                   
+      <script type="text/javascript" src="js/responsee.js"></script>               
+      <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+      
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          var owl = $('#header-carousel');
+          owl.owlCarousel({
+            nav: true,
+            dots: true,
+            items: 1,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000
+          });
+          var owl = $('#gallery-carousel');
+          owl.owlCarousel({
+            nav: false,
+            dots: true,
+            loop: true,
+            navText: ["&#xf007","&#xf006"],
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+              0: {
+                items: 1
+              },
+              769: {
+                items: 2
+              },
+              960: {
+                items: 4
+              }
+            }
+          });
+        })
+      </script>
+   </body>
+</html>

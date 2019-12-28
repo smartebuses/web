@@ -1,0 +1,75 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=cont-en 2019.9.10)  26 DEC 2019 07:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**members.run
+(./members.run
+
+ConTeXt  ver: 2019.03.21 21:39 MKII  fmt: 2019.9.10  int: english/english
+
+system          : cont-new.mkii loaded
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/cont-new.mkii
+systems         : beware: some patches loaded from cont-new.mkii
+)
+system          : cont-sys.tex loaded
+(/usr/local/texlive/2019/texmf-config/tex/context/user/cont-sys.tex
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/type-siz.mkii)
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/type-one.mkii))
+system          : members.top loaded
+(./members.top)
+bodyfont        : 12pt rm is loaded
+language        : patterns nl->texnansi:texnansi->1->2:2 nl->ec:ec->2->2:2 us->
+ec:ec->3->2:3 de->texnansi:texnansi->4->3:3 de->ec:ec->5->3:3 da->ec:ec->6->2:2
+ sv->ec:ec->7->2:2 af->ec:ec->8->2:2 gb->ec:ec->9->2:2 fr->texnansi:texnansi->1
+0->2:2 fr->ec:ec->11->2:2 es->ec:ec->12->2:2 ca->ec:ec->13->2:2 it->texnansi:te
+xnansi->14->2:2 it->ec:ec->15->2:2 la->ec:ec->16->2:2 pt->texnansi:texnansi->17
+->2:2 pt->ec:ec->18->2:2 ro->ec:ec->19->2:2 pl->pl0:pl0->20->2:2 pl->ec:ec->21-
+>2:2 pl->qx:qx->22->2:2 cs->il2:il2->23->2:2 cs->ec:ec->24->2:2 sk->il2:il2->25
+->2:2 sk->ec:ec->26->2:2 hr->ec:ec->27->2:2 sl->ec:ec->28->2:2 tr->ec:ec->29->2
+:2 tk->ec:ec->30->1:2 lt->l7x:l7x->31->2:2 agr->agr:agr->33->2:2 fi->ec:ec->34-
+>2:2 hu->ec:ec->35->2:2 ru->t2a:t2a->37->2:2 uk->t2a:t2a->38->3:3  loaded
+specials        : dvips loaded
+\openout3 = `members.tui'.
+
+\openout0 = `members-mpgraph.mp'.
+
+systems         : system commands are enabled
+language        : language en is active
+specials        : loading definition file tpd
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/spec-tpd.mkii
+specials        : loading definition file fdf
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/spec-fdf.mkii))
+publications    : file members.bbl not found, waiting for bibtex
+systems         : begin file members at line 1
+(./members.html
+Underfull \hbox (badness 10000) in paragraph at lines 30--50
+
+
+\hbox(0.0+0.0)x426.78743
+.\glue(\rightskip) 0.0
+
+Runaway argument?
+ 2019 Programme under grant agreement No. 19/RDD/519</p> </div> <div \ETC.
+! Paragraph ended before & was complete.
+<to be read again> 
+                   \par 
+l.131 
+      
+? 
+! Emergency stop.
+<to be read again> 
+                   \par 
+l.131 
+      
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 881 strings out of 455498
+ 13598 string characters out of 5510245
+ 4870038 words of memory out of 9270867
+ 42223 multiletter control sequences out of 15000+600000
+ 82418 words of font info for 37 fonts, out of 8000000 for 9000
+ 581 hyphenation exceptions out of 8191
+ 35i,1n,31p,788b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
